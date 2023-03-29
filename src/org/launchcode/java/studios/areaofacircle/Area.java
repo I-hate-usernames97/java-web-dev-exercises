@@ -11,7 +11,6 @@ public class Area {
         Double area = Circle.getArea(radius);
         System.out.println(area);
 
-
     }
 
 }
