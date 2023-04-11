@@ -49,9 +49,8 @@ public class Student {
             return "sophomore";
         } else if (credits <= 89) {
             return "junior";
-        } else {
-            return "senior";
         }
+            return "senior";
     }
     public String toString() {
         return String.format("%s is a %s with %d credits and a GPA of %.2f", this.name, this.getGradeLevel(this.numberOfCredits), this.getNumberOfCredits(), this.getGpa());
